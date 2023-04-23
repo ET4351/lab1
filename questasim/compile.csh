@@ -25,8 +25,4 @@ vlog ../sourcecode/design/accelerator.v \
 
 # Compile the testbench 
 vlog     ../sourcecode/testbench/spiflash.v +define+BEHAV=1 -timescale 1ns/1ps
-vlog -sv ../sourcecode/testbench/et4351_tb.sv +incdir+../sourcecode/includes +define+BEHAV=1 -timescale 1ns/1ps
-
-# Launch the simulation
-vsim testbench -c -do run.cmd -t 100ps +firmware=../firmware/firmware.hex
-
+vlog -sv ../sourcecode/testbench/et4351_tb.sv +incdir+../sourcecode/include +define+BEHAV=1 -timescale 1ns/1ps

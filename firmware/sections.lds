@@ -1,9 +1,7 @@
-#  define MEM_TOTAL 0x20000 /* 128 KB */
-
 MEMORY
 {
     FLASH (rx)      : ORIGIN = 0x00100000, LENGTH = 0x400000 /* entire flash, 4 MiB */
-    RAM (xrw)       : ORIGIN = 0x00000000, LENGTH = MEM_TOTAL
+    RAM (xrw)       : ORIGIN = 0x00000000, LENGTH = 0x20000
 }
 
 SECTIONS {

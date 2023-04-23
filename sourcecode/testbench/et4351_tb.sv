@@ -39,8 +39,8 @@ module testbench;
 		$display("# Start of Testbench 						        ");
 		$display("##################################################");
 		
-		$dumpfile("testbench.vcd");	// Create VCD file
-		$dumpvars(0, testbench);	// Dump all variables
+		// $dumpfile("testbench.vcd");	// Create VCD file
+		// $dumpvars(0, testbench);	// Dump all variables
 
 		// Create a file store simulation outputs
 		file = $fopen("outputs.txt", "w");
