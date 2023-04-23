@@ -1,0 +1,478 @@
+m255
+K4
+z2
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/nfs/cgao1/lab1/questasim
+T_opt
+!s110 1682274445
+VG@g>[8A_g[@H@ahM6M:HV3
+04 9 4 work testbench fast 0
+=1-005056968d51-6445788c-d1f2e-20cb97
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2020.4;71
+vaccelerator
+Z2 !s110 1682274443
+!i10b 1
+!s100 B;nNZ4S`NfhSl^CfMe0Ud0
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I1HUjo;^4C]Yc9>HBm[a7[0
+R0
+w1682270115
+8../sourcecode/design/accelerator.v
+F../sourcecode/design/accelerator.v
+!i122 0
+L0 26 78
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2020.4;71
+r1
+!s85 0
+31
+Z6 !s108 1682274442.000000
+Z7 !s107 ../sourcecode/design/et4351.v|../sourcecode/design/picorv32.v|../sourcecode/design/picosoc.v|../sourcecode/design/spimemio.v|../sourcecode/design/simpleuart.v|../sourcecode/design/accelerator.v|
+Z8 !s90 ../sourcecode/design/accelerator.v|../sourcecode/design/simpleuart.v|../sourcecode/design/spimemio.v|../sourcecode/design/picosoc.v|../sourcecode/design/picorv32.v|../sourcecode/design/et4351.v|+incdir+../sourcecode/includes|-timescale|1ns/1ps|
+!i113 0
+Z9 o-timescale 1ns/1ps -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z10 !s92 +incdir+../sourcecode/includes -timescale 1ns/1ps -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vbidir_buf
+R2
+!i10b 1
+!s100 8gTzX^_RREIISC@`eXK`23
+R3
+IimjJ?ze5H23OeFS5?bZ_K3
+R0
+Z11 w1682270103
+Z12 8../sourcecode/design/et4351.v
+Z13 F../sourcecode/design/et4351.v
+!i122 0
+L0 98 9
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R1
+vet4351
+R2
+!i10b 1
+!s100 jTSZeBlNU`1G;6M]R9GBo3
+R3
+IkkQ5Rj4mGe>N7@]_o]Xd83
+R0
+R11
+R12
+R13
+!i122 0
+L0 11 86
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R1
+vpicorv32
+R2
+!i10b 1
+!s100 7ZdoAVXAo=9h7BH;ia9Wm2
+R3
+Iz5PQCz;N6H5VXe:IXdal93
+R0
+Z14 w1682270125
+Z15 8../sourcecode/design/picorv32.v
+Z16 F../sourcecode/design/picorv32.v
+!i122 0
+L0 62 2101
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R1
+vpicorv32_axi
+R2
+!i10b 1
+!s100 4O^V?`dIKO]iF?S6M1kGb0
+R3
+IKNg3Ok0EPB7Qm@mMQ5MiM2
+R0
+R14
+R15
+R16
+!i122 0
+L0 2512 208
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R1
+vpicorv32_axi_adapter
+R2
+!i10b 1
+!s100 E4P[C0ioHe;;[S5m4A0`m0
+R3
+IQ6gjEEne?[[O>LJhKGM_Q0
+R0
+R14
+R15
+R16
+!i122 0
+L0 2726 78
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R1
+vpicorv32_pcpi_div
+R2
+!i10b 1
+!s100 lhKeiS:@`mP=K69gm]ci:0
+R3
+I9A88c@RT14d_@312JBI]53
+R0
+R14
+R15
+R16
+!i122 0
+L0 2415 91
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R1
+vpicorv32_pcpi_fast_mul
+R2
+!i10b 1
+!s100 P2;Z`3M[Bl40F7WI5>HfY2
+R3
+IYgJN^[o3Ug<Xze6AjX0kE0
+R0
+R14
+R15
+R16
+!i122 0
+L0 2313 96
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R1
+vpicorv32_pcpi_mul
+R2
+!i10b 1
+!s100 5Ren52jlhjN>c=>5l22gE0
+R3
+Iah8IBZL@9Kkdnd_2emoBZ1
+R0
+R14
+R15
+R16
+!i122 0
+L0 2192 120
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R1
+vpicorv32_regs
+R2
+!i10b 1
+!s100 [6FPzdh?7jX6RjS;J7zIF2
+R3
+I3FJZK0LdjFSeQYARoGF^X2
+R0
+R14
+R15
+R16
+!i122 0
+L0 2169 17
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R1
+vpicorv32_wb
+R2
+!i10b 1
+!s100 o<8:8[KEnn[I:5CkG5TVo2
+R3
+IbUk^@9hZ1;HO:naifl3@F0
+R0
+R14
+R15
+R16
+!i122 0
+L0 2810 235
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R1
+vpicosoc
+R2
+!i10b 1
+!s100 h=P`1M7JUofM599n5V84D1
+R3
+I404MaGK8S>8Ob`XS_>g8j2
+R0
+Z17 w1682272310
+Z18 8../sourcecode/design/picosoc.v
+Z19 F../sourcecode/design/picosoc.v
+!i122 0
+L0 36 198
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R1
+vpicosoc_mem
+R2
+!i10b 1
+!s100 4FooX_KXANVfIcZe5KeLg0
+R3
+IWUl<n1AHAgdaGz2IKejA]3
+R0
+R17
+R18
+R19
+!i122 0
+L0 256 19
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R1
+vpicosoc_regs
+R2
+!i10b 1
+!s100 S8m^gc^<>ZTPkRXML0C:^1
+R3
+I0WIF@T1=jgTih`OXWSf:B2
+R0
+R17
+R18
+R19
+!i122 0
+L0 238 17
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R1
+vsimpleuart
+R2
+!i10b 1
+!s100 XKmYl>o3g>W<0DFmO<Ik;3
+R3
+I9AmY1CKJCE9MfJ;AAJK6A2
+R0
+Z20 w1682270095
+8../sourcecode/design/simpleuart.v
+F../sourcecode/design/simpleuart.v
+!i122 0
+L0 20 118
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R1
+vspiflash
+R2
+!i10b 1
+!s100 fL^bWg[HRAJ>g<^18A=N91
+R3
+ICJ1XZ>hWLl:8a`YJ=Zm5d1
+R0
+R20
+8../sourcecode/testbench/spiflash.v
+F../sourcecode/testbench/spiflash.v
+!i122 1
+L0 39 371
+R4
+R5
+r1
+!s85 0
+31
+Z21 !s108 1682274443.000000
+!s107 ../sourcecode/testbench/spiflash.v|
+!s90 ../sourcecode/testbench/spiflash.v|+define+BEHAV=1|-timescale|1ns/1ps|
+!i113 0
+R9
+!s92 +define+BEHAV=1 -timescale 1ns/1ps -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vspimemio
+R2
+!i10b 1
+!s100 E>HS5kd?eO8ZTm?2ETZY>0
+R3
+I:EoPXD7hiF7>7TPffnJ@e3
+R0
+R20
+Z22 8../sourcecode/design/spimemio.v
+Z23 F../sourcecode/design/spimemio.v
+!i122 0
+L0 20 357
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R1
+vspimemio_xfer
+R2
+!i10b 1
+!s100 ZZ;82K1dWNPk5QV<S7TG`3
+R3
+IW2NnOnfI?lWKIn<HYmDmO0
+R0
+R20
+R22
+R23
+!i122 0
+L0 378 202
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R10
+R1
+vtestbench
+DXx6 sv_std 3 std 0 22 9oUSJO;AeEaW`l:M@^WG92
+R2
+!i10b 1
+!s100 1l?Jhaa=mIzMeegiYM=3V1
+R3
+IlKeNCaM7?gJVQW:@L0oK:2
+S1
+R0
+w1682274439
+8../sourcecode/testbench/et4351_tb.sv
+F../sourcecode/testbench/et4351_tb.sv
+!i122 2
+L0 12 115
+R4
+R5
+r1
+!s85 0
+31
+R21
+!s107 ../sourcecode/includes/macros.svh|../sourcecode/testbench/et4351_tb.sv|
+!s90 -sv|../sourcecode/testbench/et4351_tb.sv|+incdir+../sourcecode/includes|+define+BEHAV=1|-timescale|1ns/1ps|
+!i113 0
+o-sv -timescale 1ns/1ps -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+!s92 -sv +incdir+../sourcecode/includes +define+BEHAV=1 -timescale 1ns/1ps -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
