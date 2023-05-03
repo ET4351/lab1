@@ -1,14 +1,21 @@
+OUTPUT_FORMAT("elf32-littleriscv", "elf32-littleriscv",
+	      "elf32-littleriscv")
+OUTPUT_ARCH(riscv)
+ENTRY(_start)
+
 MEMORY
 {
     FLASH (rx)      : ORIGIN = 0x00100000, LENGTH = 0x400000 /* entire flash, 4 MiB */
-    RAM (xrw)       : ORIGIN = 0x00000000, LENGTH = 0x20000
+    RAM (xrw)       : ORIGIN = 0x00000000, LENGTH = 0x3FF
 }
 
-SECTIONS {
+SECTIONS
+{
     /* The program code and other data goes into FLASH */
     .text :
     {
         . = ALIGN(4);
+        *(.text.start .text.start.*) /* startup code */
         *(.text)           /* .text sections (code) */
         *(.text*)          /* .text* sections (code) */
         *(.rodata)         /* .rodata sections (constants, strings, etc.) */

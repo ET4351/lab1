@@ -9,7 +9,7 @@
 ##########################################################################
 
 # Compile
-source compile.csh
+source compile.sh
 
 # Launch the simulation
 vsim testbench -c -do run.cmd -t 100ps +firmware=../firmware/hello.hex

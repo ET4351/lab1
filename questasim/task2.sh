@@ -9,8 +9,8 @@
 ##########################################################################
 
 # Compile
-source compile.csh
+source compile.sh
 
 # Launch the simulation
-vsim testbench -c -do run.cmd -t 100ps +firmware=../firmware/prime.hex
+vsim testbench -c -do run.cmd -t 100ps +firmware=../firmware/dummy_accel.hex
 

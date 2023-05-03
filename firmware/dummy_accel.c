@@ -49,7 +49,7 @@ void run_accelerator() {
 	print_char('\n');
 }
 
-void main()
+void main(void)
 {
 	// Initialize PicoSoC
 	init_uart();
@@ -59,4 +59,13 @@ void main()
 
 	// End of Program
 	print_char(-1);
+}
+
+/*
+ * Define the entry point of the program.
+ */
+__attribute__((section(".text.start")))
+void _start(void)
+{
+	main();
 }

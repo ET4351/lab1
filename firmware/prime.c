@@ -8,16 +8,14 @@
 ##########################################################################*/
 
 #include "uart.h"
+
 bool is_prime(int n) {
-    if (n <= 1) {
-        return false;
-    }
-    for (int i = 2; i * i <= n; i++) {
-        if (n % i == 0) {
+    for(int i = 2; i < n; i++) {
+        if((n % i) == 0) {
             return false;
         }
     }
-    return true;
+   return true;
 }
 
 void calculate_prime(int threshold) {
@@ -36,7 +34,7 @@ void calculate_prime(int threshold) {
     }
 }
 
-void main()
+void main(void)
 {
 	// Initialize PicoSoC
 	init_uart();
@@ -46,4 +44,13 @@ void main()
 
 	// End of Program
 	print_char(-1);
+}
+
+/*
+ * Define the entry point of the program.
+ */
+__attribute__((section(".text.start")))
+void _start(void)
+{
+	main();
 }

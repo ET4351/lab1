@@ -9,18 +9,27 @@
 
 #include "uart.h"
 
-void hello() {
+void say_hello() {
 	print_str("Hello, World!\n");
 }
 
-void main()
+void main(void)
 {
 	// Initialize PicoSoC
 	init_uart();
 
 	// Your Code
-	hello();
+	say_hello();
 
 	// End of Program
 	print_char(-1);
+}
+
+/*
+ * Define the entry point of the program.
+ */
+__attribute__((section(".text.start")))
+void _start(void)
+{
+	main();
 }
